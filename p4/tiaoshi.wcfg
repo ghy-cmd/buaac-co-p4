@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/ISE/cpu/cpu_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="cpu_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="37" />
+   <wvobject fp_name="/cpu_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/op" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">op[31:0]</obj_property>
+      <obj_property name="ObjectShortName">op[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/ALUop" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUop[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUop[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/RegWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/ALUmux" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUmux</obj_property>
+      <obj_property name="ObjectShortName">ALUmux</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/EXTop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EXTop</obj_property>
+      <obj_property name="ObjectShortName">EXTop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/A3mux" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">A3mux[1:0]</obj_property>
+      <obj_property name="ObjectShortName">A3mux[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/REGmux" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">REGmux[1:0]</obj_property>
+      <obj_property name="ObjectShortName">REGmux[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/MemWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/Branch" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Branch</obj_property>
+      <obj_property name="ObjectShortName">Branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/j" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">j</obj_property>
+      <obj_property name="ObjectShortName">j</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/pc4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc4[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/jr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">jr</obj_property>
+      <obj_property name="ObjectShortName">jr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/imm" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imm[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/EQU" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EQU</obj_property>
+      <obj_property name="ObjectShortName">EQU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/A3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">A3[4:0]</obj_property>
+      <obj_property name="ObjectShortName">A3[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/RD1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RD1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/RD2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RD2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/WD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">WD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WD[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/dm/rst[21]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[21,31:0]</obj_property>
+      <obj_property name="ObjectShortName">rst[21,31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/ALURD2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALURD2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALURD2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/ALUout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUout[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/con/addu" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">addu</obj_property>
+      <obj_property name="ObjectShortName">addu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/con/addi" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">addi</obj_property>
+      <obj_property name="ObjectShortName">addi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/con/subu" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">subu</obj_property>
+      <obj_property name="ObjectShortName">subu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/con/ori" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ori</obj_property>
+      <obj_property name="ObjectShortName">ori</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/con/lw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">lw</obj_property>
+      <obj_property name="ObjectShortName">lw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/con/sw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sw</obj_property>
+      <obj_property name="ObjectShortName">sw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/con/beq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">beq</obj_property>
+      <obj_property name="ObjectShortName">beq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/con/lui" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">lui</obj_property>
+      <obj_property name="ObjectShortName">lui</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/con/j" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">j</obj_property>
+      <obj_property name="ObjectShortName">j</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/con/jal" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">jal</obj_property>
+      <obj_property name="ObjectShortName">jal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/con/jr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">jr</obj_property>
+      <obj_property name="ObjectShortName">jr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/con/nop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">nop</obj_property>
+      <obj_property name="ObjectShortName">nop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/con/jalr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">jalr</obj_property>
+      <obj_property name="ObjectShortName">jalr</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+ALU instance_name (
+    .ALUop(ALUop), 
+    .RD1(RD1), 
+    .RD2(RD2), 
+    .OUT(OUT), 
+    .EQU(EQU)
+    );
+
+

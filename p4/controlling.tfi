@@ -1,0 +1,17 @@
+
+
+
+// Instantiate the module
+controlling instance_name (
+    .op(op), 
+    .ALUop(ALUop), 
+    .RegWrite(RegWrite), 
+    .ALUmux(ALUmux), 
+    .EXTop(EXTop), 
+    .A3mux(A3mux), 
+    .REGmux(REGmux), 
+    .MemWrite(MemWrite), 
+    .Branch(Branch)
+    );
+
+

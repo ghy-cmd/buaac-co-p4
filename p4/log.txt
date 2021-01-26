@@ -1,0 +1,31 @@
+Running: F:\ise\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe --nodebug --prj mips.prj -o mips.exe mipsAutoTest 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:\ISE\cpu\ALU.v" into library work
+Analyzing Verilog file "D:\ISE\cpu\controlling.v" into library work
+Analyzing Verilog file "D:\ISE\cpu\cpu_tb.v" into library work
+Analyzing Verilog file "D:\ISE\cpu\DM.v" into library work
+Analyzing Verilog file "D:\ISE\cpu\Ext.v" into library work
+Analyzing Verilog file "D:\ISE\cpu\GRF.v" into library work
+Analyzing Verilog file "D:\ISE\cpu\GRF_tb.v" into library work
+Analyzing Verilog file "D:\ISE\cpu\IFU.v" into library work
+Analyzing Verilog file "D:\ISE\cpu\mips.v" into library work
+Analyzing Verilog file "D:\ISE\cpu\mipsAutoTest.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module controlling
+Compiling module IFU
+Compiling module GRF
+Compiling module Ext
+Compiling module DM
+Compiling module ALU
+Compiling module mips
+Compiling module mipsAutoTest
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 8 Verilog Units
+Built simulation executable mips.exe
+Fuse Memory Usage: 29600 KB
+Fuse CPU Usage: 359 ms

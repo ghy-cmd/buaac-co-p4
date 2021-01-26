@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/ISE/cpu/cpu_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="cpu_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="/cpu_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/op" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">op[31:0]</obj_property>
+      <obj_property name="ObjectShortName">op[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/ALUop" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUop[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUop[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/RegWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/ALUmux" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUmux</obj_property>
+      <obj_property name="ObjectShortName">ALUmux</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/EXTop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EXTop</obj_property>
+      <obj_property name="ObjectShortName">EXTop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/A3mux" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">A3mux[1:0]</obj_property>
+      <obj_property name="ObjectShortName">A3mux[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/REGmux" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">REGmux[1:0]</obj_property>
+      <obj_property name="ObjectShortName">REGmux[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/MemWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/Branch" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Branch</obj_property>
+      <obj_property name="ObjectShortName">Branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/j" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">j</obj_property>
+      <obj_property name="ObjectShortName">j</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/pc4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc4[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/jr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">jr</obj_property>
+      <obj_property name="ObjectShortName">jr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/imm" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imm[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/EQU" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EQU</obj_property>
+      <obj_property name="ObjectShortName">EQU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/A3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">A3[4:0]</obj_property>
+      <obj_property name="ObjectShortName">A3[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/RD1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RD1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/RD2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RD2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/WD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">WD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WD[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/ALURD2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALURD2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALURD2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/ALUout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUout[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/DMout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DMout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DMout[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

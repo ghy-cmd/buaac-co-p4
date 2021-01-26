@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj cpu -o D:/ISE/cpu/GRF.tfi -lib work D:/ISE/cpu//GRF.v -module GRF -template F:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

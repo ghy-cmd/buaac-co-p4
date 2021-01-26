@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+Ext instance_name (
+    .EXTop(EXTop), 
+    .imm(imm), 
+    .out(out)
+    );
+
+

@@ -1,0 +1,4 @@
+vhdtdtfi -lang verilog -prj cpu -o D:/ISE/cpu/IFU.tfi -lib work D:/ISE/cpu//IFU.v -module IFU -template F:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj cpu -o D:/ISE/cpu/IFU.tfi -lib work D:/ISE/cpu//IFU.v -module IFU -template F:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj cpu -o D:/ISE/cpu/IFU.tfi -lib work D:/ISE/cpu//IFU.v -module IFU -template F:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj cpu -o D:/ISE/cpu/IFU.tfi -lib work D:/ISE/cpu//IFU.v -module IFU -template F:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
